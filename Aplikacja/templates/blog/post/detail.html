@@ -6,4 +6,27 @@
         Opublikowany: {{ post.publish }} przez {{ post.author }}
     </p>
     {{ post.body|linebreaks }}
+
+    <h2>{{ comments.count }} Komentarz{{ comments.count|pluralize:"y" }}</h2>
+{#    pluarize robi tak ze jesli jest liczba mnoga kometarzy to dodaje y do slowa komentarz     #}
+
+    {% for comment in comments %}
+        <div class="comment">
+            <p class="info">
+                Komentarz {{ forloop.counter }} dodany przez {{ comment.email }}
+                {{ comment.created }}
+            </p>
+        {{ comment.body }}
+
+        </div>
+        {% empty %}
+        <p>Nie ma jeszcze zadnych komentarzy</p>
+    {% endfor %}
+
+    <h2>Dodaj nowy komentarz</h2>
+    <form action="" method="post">
+        {{ comment_form.as_p }}
+        {% csrf_token %}
+        <p><input type="submit" value="Dodaj Komentarz"></p>
+    </form>
 {% endblock %}

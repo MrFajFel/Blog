@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="337f532d-5ea1-45d4-a3cc-e0e1bd161f9e" name="Changes" comment="naprawa22">
+    <list default="true" id="337f532d-5ea1-45d4-a3cc-e0e1bd161f9e" name="Changes" comment="naprawa24">
+      <change afterPath="$PROJECT_DIR$/Aplikacja/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aplikacja/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aplikacja/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aplikacja/templates/blog/pagination.html" beforeDir="false" afterPath="$PROJECT_DIR$/Aplikacja/templates/blog/pagination.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aplikacja/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aplikacja/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aplikacja/templates/blog/post/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/Aplikacja/templates/blog/post/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aplikacja/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aplikacja/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -126,7 +128,7 @@
       <workItem from="1712218805884" duration="41000" />
       <workItem from="1712230543481" duration="4936000" />
       <workItem from="1712822165591" duration="172000" />
-      <workItem from="1712835463385" duration="699000" />
+      <workItem from="1712835463385" duration="4115000" />
     </task>
     <task id="LOCAL-00001" summary="naprawa">
       <option name="closed" value="true" />
@@ -224,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712235444986</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="naprawa24">
+      <option name="closed" value="true" />
+      <created>1712836277643</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1712836277643</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +244,8 @@
     <MESSAGE value="naprawa" />
     <MESSAGE value="naprawa2" />
     <MESSAGE value="naprawa22" />
-    <option name="LAST_COMMIT_MESSAGE" value="naprawa22" />
+    <MESSAGE value="naprawa24" />
+    <option name="LAST_COMMIT_MESSAGE" value="naprawa24" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
